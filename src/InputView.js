@@ -74,7 +74,7 @@ const InputView = {
   readGameProcessor(doOrDie) {
     try {
       inputErrorCheck.gameCommand(doOrDie);
-      this.inputOutputMover(bridgeGame.retry(doOrDie));
+      InputView.inputOutputMover(bridgeGame.retry(doOrDie));
     } catch (error) {
       Console.print(error);
       InputView.readGameCommand();
