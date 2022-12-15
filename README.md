@@ -3,14 +3,11 @@
 ## ✅ 기능 목록
 
 - 다리 생성
-
 - [x] InputView : 다리길이 입력
 - [x] 입력한 다리길이 BridgeMaker로 전달
 - [x] BridgeMaker : 다리 생성
 - [x] 생성한 다리 InputView으로 전달
-
 - 게임 플레이
-
 - [x] InputView : 이동할 방향 입력
 - [x] 이동방향 BridgeGame으로 전달
 - [x] BridgeGame : 생사 판단
@@ -20,16 +17,12 @@
 - [x] 사의 경우→ InputView : 다시 도전할지 포기할지 선택
   - [x] 다시 도전→ InputView : 같은다리로 처음부터 다시 시작
   - [x] 포기→ OutputView : 최종 게임 결과 출력(실패)
-
 - 게임 클리어
-
 - [x] 마지막 방향 전달
 - [x] BridgeGame : 생사판단 & 마지막인지 판단
 - [x] 이동방향 & 생사결과 & 게임횟수 OutputView에 전달
 - [x] OutputView : 최종결과 출력
-
-- 예외 경우
-
+- 예외 상황
 - [x] 다리 생성 : 3미만, 20초과
 - [x] 다리 생성 : 글자 입력
 - [x] 이동 방향 : 'U', 'D'가 아닌 모든 경우
